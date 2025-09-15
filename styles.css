@@ -1,0 +1,111 @@
+/* Reset básico de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3e2723; /* Cor mais próxima ao sertanejo */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo da lista de músicas */
+.musica-lista {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+.musica-item {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.musica-item:hover {
+    transform: scale(1.05);
+}
+
+.musica-item h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #3e2723;
+}
+
+.musica-item p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Links */
+a {
+    color: #3e2723;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botões */
+.botao {
+    background-color: #3e2723;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+.botao:hover {
+    background-color: #5d4037;
+}
+
+/* Rodapé */
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0
